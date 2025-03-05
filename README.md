@@ -16,7 +16,3 @@ Welcome to the official website of **Sri Lalitha Natya Kalanikethan**, a premier
 ## 🌐 Live Demo  
 🔗 [Visit Our Website](https://Sri-Lalitha-Natya-Kalanikethan.github.io/) 
 
-## 📌 How to Run Locally?  
-1. **Clone the Repository:**  
-   ```bash
-   git clone https://github.com/Ramalalithya/dance-website.git
