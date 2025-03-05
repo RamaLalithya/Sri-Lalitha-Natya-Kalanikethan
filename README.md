@@ -14,9 +14,9 @@ Welcome to the official website of **Sri Lalitha Natya Kalanikethan**, a premier
 - **Google Fonts & Font Awesome** – For stylish typography and icons.  
 
 ## 🌐 Live Demo  
-🔗 [Visit Our Website](https://Sri-Lalitha-Natya-Kalanikethan.github.io/) (Replace with actual URL)  
+🔗 [Visit Our Website](https://Sri-Lalitha-Natya-Kalanikethan.github.io/) 
 
 ## 📌 How to Run Locally?  
 1. **Clone the Repository:**  
    ```bash
-   git clone https://github.com/yourusername/dance-website.git
+   git clone https://github.com/Ramalalithya/dance-website.git
