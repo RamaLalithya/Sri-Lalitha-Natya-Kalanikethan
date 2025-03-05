@@ -1,0 +1,246 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #660000;
+    padding: 15px 50px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Banner Section */
+.banner {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.banner .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.banner h1 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 20px;
+    color: #ffcc00;
+}
+
+/* Sections */
+.content-section {
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #660000;
+}
+
+.content-section p, .content-section ul {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+/* Faculties Section */
+#faculties {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff5e6; /* Light Orange Background */
+}
+
+.faculty-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.faculty-photo img {
+    width: 250px;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.faculty-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.faculty-list li {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    background: #ff7043;
+    color: white;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.faculty-list li:hover {
+    background: #ff5722;
+}
+
+.faculty-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.faculty-info h3 {
+    font-size: 1.5rem;
+    color: #800000;
+}
+
+.faculty-info p {
+    font-size: 1rem;
+    width: 60%;
+    margin: 10px auto;
+}
+
+/* Gallery */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin: 20px auto;
+}
+
+.image-container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Buttons */
+button {
+    background-color: #660000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc00;
+    color: #660000;
+}
+/* Styling for Courses Section */
+#courses {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 50px 20px;
+}
+
+#courses h2 {
+    font-size: 2rem;
+    color: #800000; /* Dark red */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-box {
+    background: linear-gradient(135deg, #ff9966, #ff5e62); /* Gradient Background */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+
+.course-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.course-box p {
+    font-size: 1rem;
+}
+
+.course-box:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: #660000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+}

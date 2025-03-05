@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRI LALITHA NATYA KALANIKETHAN</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png.jpg" alt="SLNK Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#registration">Registration</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="banner">
+        <div class="overlay">
+            <h1>Welcome to SRI LALITHA NATYA KALANIKETHAN</h1>
+            <p>Experience the grace of classical dance.</p>
+            <a href="#registration" class="button">Join Us</a>
+        </div>
+    </section>
+
+    <section id="about" class="content-section">
+        <h2>About Us</h2>
+        <p>Sri Lalitha Natya Kalanikethan (SLNK) is a prestigious classical dance institute dedicated to preserving and promoting Indian classical and folk dance forms. Originally established in 1988 as Balaji Natya Kalanikethan, it was later renamed Sri Lalitha Natya Kalanikethan in 1999.
+
+            Under the visionary guidance of its founder, Guru Duttaluri Babu Balaji, SLNK has been a beacon of excellence in Kuchipudi, Bharatanatyam, and Folk Dance training. With a legacy spanning decades, the institute has trained thousands of students who have showcased their talent on esteemed platforms across India, earning numerous awards and accolades.
+            
+            SLNK continues to uphold the rich traditions of Indian classical dance while inspiring future generations of artists through dedicated training, performances, and cultural contributions.</p>
+        <h3>Guru Duttaluri Babu Balaji</h3>
+        <p>Guru Duttaluri Babu Balaji is a renowned classical dance exponent and the driving force behind Sri Lalitha Natya Kalanikethan. With a deep passion for Kuchipudi, Bharatanatyam, and Folk Dance, he has dedicated his life to nurturing young talents and promoting Indian heritage through dance.
+
+            His expertise and commitment have not only shaped the careers of numerous students but have also contributed significantly to the growth of classical dance in India. His disciples, carrying forward his legacy, have won prestigious awards and performed on national and international stages.
+            
+            Guru Babu Balaji’s unwavering dedication continues to inspire and elevate the art of dance, making SLNK a revered institution in the field of classical performing arts.</p>
+    </section>
+
+    <section id="courses" class="content-section">
+        <h2>Our Courses</h2>
+        <div class="course-container">
+            <div class="course-box">
+                <h3>Kuchipudi</h3>
+                <p>A graceful dance form known for its fast rhythmic movements and expressive storytelling.</p>
+            </div>
+            <div class="course-box">
+                <h3>Bharatanatyam</h3>
+                <p>An ancient classical dance form that combines rhythm, expression, and intricate footwork.</p>
+            </div>
+            <div class="course-box">
+                <h3>Folk Dance</h3>
+                <p>Vibrant and energetic traditional dances that celebrate India’s rich cultural heritage.</p>
+            </div>
+        </div>
+    </section>
+    <section id="faculties" class="content-section">
+        <h2>Our Faculties</h2>
+        <div class="faculty-container">
+            <div class="faculty-photo">
+                <img id="facultyImage" src="Faculty.jpg" alt="Faculty">
+            </div>
+            <div class="faculty-list">
+                <ul>
+                    <li onclick="showFaculty('babu')">Babu Balaji Duttaluri</li>
+                    <li onclick="showFaculty('kamala')">Kamala Balaji Duttaluri</li>
+                    <li onclick="showFaculty('rama')">Rama Lalithya Duttaluri</li>
+                    <li onclick="showFaculty('harsharee')">Harsharee Duttaluri</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="gallery" class="content-section">
+        <h2>Gallery</h2>
+        <div class="image-container">
+            <img src="1.jpg.jpg" alt="Ugadi Puraskar">
+            <img src="2.jpg.jpg" alt="Students">
+            <img src="3.jpg.jpg" alt="Dance Performance in Mysore Datta Peetham">
+            <img src="4.jpg.jpg" alt="Sankranthi 2025 Program">
+            <img src="5.jpg.jpg" alt="Adi Yogi Awards 2025">
+            <img src="6.jpg.jpg" alt="Nandi Awards 2022">
+            <img src="7.jpg.jpg" alt="Varanasi Siva Ganga Awards 2024">
+            <img src="10.jpg.jpg" alt="Bala Rama Awards 2024(Ayodhya)">
+            <img src="12.jpg.jpg" alt="Natya Mayuri Awards 2025">
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="content-section">
+        <h2>Our Performances</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-2J0V5S0g-c" title="Natya Mayuri Award Program" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/L4yeVnGNUH4" title="Adi Yogi Award Program" frameborder="0" allowfullscreen></iframe>
+            
+        </div>
+        <p>Watch more performances on our <a href="https://youtube.com/@babubalajid.r7976?si=Owyh27mtyqtZra0Q" target="_blank">YouTube Channel</a>.</p>
+    </section>
+    
+    <section id="events" class="content-section">
+        <h2>Upcoming Events</h2>
+        <p>Information about workshops and competitions.</p>
+    </section>
+    
+    <section id="registration" class="content-section">
+        <h2>Register Now</h2>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" required>
+            
+            <input type="submit" value="Register">
+        </form>
+        <p id="successMessage" style="display: none;">Registration successful!</p>
+    </section>
+    
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <p>Brahmin Street,Dharmavaram and drbabubalaji@gmail.com.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 SRI LALITHA NATYA KALANIKETHAN. All rights reserved.</p>
+    </footer>
+</body>
+</html>
